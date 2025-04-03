@@ -11,7 +11,7 @@ import pygame
 # ----------------------------
 # Parameter und Dateinamen
 # ----------------------------
-DATASET_PATH = "dataset-1.txt"        # Pfad zu deinem ABC-Datensatz
+DATASET_PATH = "dataset-combined.txt"        # Pfad zu deinem ABC-Datensatz
 MODEL_PATH = "ascii_music_model.h5"       # Dateiname für das gespeicherte Modell
 MAXLEN = 40                               # Länge der Eingabesequenzen
 STEP = 3                                  # Schrittweite bei der Erstellung der Sequenzen
@@ -70,7 +70,9 @@ def generate_text(model, seed, char_to_idx, idx_to_char, vocab_size, length=400,
     generated = seed
     sentence = seed
     for i in range(length):
-        print(f"Generiere Zeichen {i + 1}/{length}...")
+        progress = int((i + 1) * 50 / length)
+        bar = '[' + '#' * progress + '-' * (50 - progress) + ']'
+        print(f"\rGeneriere: {bar} {i + 1}/{length}", end='', flush=True)
         # Vorhersage des nächsten Zeichens
         x_pred = np.zeros((1, MAXLEN), dtype=np.int32)
         for t, char in enumerate(sentence):

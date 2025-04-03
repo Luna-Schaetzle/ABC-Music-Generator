@@ -1,22 +1,17 @@
 X: 1
 T:A and D
 % Nottingham Music Database
-S:Huankiry Brdeds, via Phil Rowe
-M:6/8
+S:Pauline Trickinds, via EF
+M:4/4
+L:1/4
 K:D
-"G"GBB GBd|"D"e2d d2c|"Dm"d2e d2e|"Am"b3 "A7"e2c|\
-"D"d2B "A7/d+"c3/2d/2a|
-"G"gab "G7"edc|"G"Beg "D"fgb|"G"g'g "D"d2::
-K:B
-A|"Am"dba ABc|"Am"efg "D#"fdA|"Am"cAA ABc|
-"Em"egg "A"efg|"A"age "A7"e2g|"A"gec "A7"cBA|"D"A3 A2:|
-
-
-X: 289
-T:Sezy's's Raspeen
-% Nottingham Music Database
-S:FF
-M:6/8
-K:D
+P:/2
 P:A
-|:A/2B/2|"A"c3 "E"GAA|"A"A2c "Em"A2G|"Bm"D3 "E7""Bm"AAF|
+c/2d/2|"G"B/2d/2B/2c/2 "M"e/2d/2B/2A/2|\
+"C"c/2d/2c/2B/2 e/2d/2c/2d/2|
+"G"B/2d/2e/2d/2 BG|"D"A/2B/2A/2F/2 "D"F/2E/2F/2A/2|\
+"Em"B/2G/2G/2B/2 "A7"Ae/2f/2|
+"D"f/2g/2f/2e/2 "G"d/2B/2G/2d/2|"A"e/2d/2c/2A/2 " ""Em"e/2f/2g/2e/2|\
+"Bm"d/2B/2c/2d/2 "E7"ef/2g/2|"D"af/2d/2 "A"e/2c/2A|\
+"D"dd/2c/2 "Em"B(3e/2f/2g/2|
+"D"a/2f/2g/2f/2 "A"e/2a/2^f/2e/2 "D"f/
