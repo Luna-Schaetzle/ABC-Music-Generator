@@ -86,6 +86,8 @@ def generate_text(model, seed, char_to_idx, idx_to_char, vocab_size, length=400,
         next_char = idx_to_char[next_index]
         generated += next_char
         sentence = sentence[1:] + next_char
+    print("\nGenerierung abgeschlossen.")
+    # Rückgabe des generierten Textes
     return generated
 
 # ----------------------------
